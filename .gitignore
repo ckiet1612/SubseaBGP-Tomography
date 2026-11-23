@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local agent tool mirrors (canonical skills live in .agents/skills/)
+/.claude/
+/agent/skills/
